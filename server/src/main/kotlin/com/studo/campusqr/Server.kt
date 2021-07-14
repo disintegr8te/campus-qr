@@ -44,7 +44,7 @@ suspend fun main() {
 
   embeddedServer(
     Netty,
-    port = System.getenv("Port")?.toIntOrNull() ?: 8070,
+    port = System.getenv("PORT")?.toIntOrNull() ?: 8070,
     host = System.getenv("HOST") ?: "0.0.0.0"
   ) {
     install(DefaultHeaders) {
