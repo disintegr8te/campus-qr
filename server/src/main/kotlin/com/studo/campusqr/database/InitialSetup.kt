@@ -27,10 +27,10 @@ suspend fun initialDatabaseSetup() {
           onDuplicateKey = { }) // Don't do anything if Configuration is already in database
       }
 
-      insert("userTosText_en", "I agree to the processing of my data according to the <privacy policy>.")
-      insert("userTosText_de", "Ich stimme der Verarbeitung meiner Daten gemäß der <Datenschutzerklärung> zu.")
-      insert("userTosUrl_en", "https://kraftraum-qr.forthin.de")
-      insert("userTosUrl_de", "https://kraftraum-qr.forthin.de")
+      insert("userTosText_en", "")
+      insert("userTosText_de", "")
+      insert("userTosUrl_en", "")
+      insert("userTosUrl_de", "")
       insert("logoUrl_en", "/static/userFrontend/universityIcon.svg")
       insert("logoUrl_de", "/static/userFrontend/universityIcon.svg")
       insert("userAppName_en", "Kraftraum QR Tracking")
@@ -59,8 +59,8 @@ suspend fun initialDatabaseSetup() {
       )
       insert("showVerificationAnimation", 1)
 
-      insert("baseUrl", ""http://kraftraum-qr.forthin.de"")
-      insert("qrCodeBaseUrl", ""http://kraftraum-qr.forthin.de"") // Used for qr code generation
+      insert("baseUrl", "http://127.0.0.1")
+      insert("qrCodeBaseUrl", "http://127.0.0.1") // Used for qr code generation
       insert("appName", "Kraftraum QR Tracking")
 
       insert("deleteCheckInDataAfterDays", 150 * 7)
