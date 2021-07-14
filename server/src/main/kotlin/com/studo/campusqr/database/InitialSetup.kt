@@ -31,19 +31,15 @@ suspend fun initialDatabaseSetup() {
       insert("userTosText_de", "Ich stimme der Verarbeitung meiner Daten gemäß der <Datenschutzerklärung> zu.")
       insert("userTosUrl_en", "https://kraftraum-qr.osc-fr1.scalingo.io")
       insert("userTosUrl_de", "https://kraftraum-qr.osc-fr1.scalingo.io")
-      insert("imprintText_en", "Imprint & Privacy")
-      insert("imprintText_de", "Impressum & Datenschutz")
-      insert("imprintUrl_en", "https://example.org")
-      insert("imprintUrl_de", "https://example.org")
       insert("logoUrl_en", "/static/userFrontend/universityIcon.svg")
       insert("logoUrl_de", "/static/userFrontend/universityIcon.svg")
-      insert("userAppName_en", "Campus QR Corona Tracking")
-      insert("userAppName_de", "Campus QR Corona Tracking")
+      insert("userAppName_en", "Kraftraum QR Tracking")
+      insert("userAppName_de", "Kraftraum QR Tracking")
       insert("userFooterAdditionalInfoUrl", "")
       insert("userFooterAdditionalInfoText_en", "")
       insert("userFooterAdditionalInfoText_de", "")
-      insert("emailPlaceholder_en", "Your university email address")
-      insert("emailPlaceholder_de", "Deine Hochschul E-Mail Adresse")
+      insert("emailPlaceholder_en", "Your email address")
+      insert("emailPlaceholder_de", "Deine HE-Mail Adresse")
       insert("emailAccessRegex", "") // Set to e.g. ".+@(student\.)?example\.org" to allow asdf@student.example.org and asdf@example.org
       insert(
         "scanSubtext1",
@@ -65,9 +61,9 @@ suspend fun initialDatabaseSetup() {
 
       insert("baseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io")
       insert("qrCodeBaseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io") // Used for qr code generation
-      insert("appName", "Kraftraum QR")
+      insert("appName", "Kraftraum QR Tracking")
 
-      insert("deleteCheckInDataAfterDays", 4 * 7)
+      insert("deleteCheckInDataAfterDays", 150 * 7)
 
       insert("autoCheckOutMinutes", 3 * 60) // 3 Hours
       insert("transitThresholdSeconds", 2 * 60) // 2 Minutes
