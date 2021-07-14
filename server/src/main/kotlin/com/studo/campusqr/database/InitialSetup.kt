@@ -63,8 +63,8 @@ suspend fun initialDatabaseSetup() {
       )
       insert("showVerificationAnimation", 1)
 
-      insert("baseUrl", "http://127.0.0.1:8070")
-      insert("qrCodeBaseUrl", "http://127.0.0.1:8070") // Used for qr code generation
+      insert("baseUrl", "http://127.0.0.1:443")
+      insert("qrCodeBaseUrl", "http://127.0.0.1:443") // Used for qr code generation
       insert("appName", "Campus QR")
 
       insert("deleteCheckInDataAfterDays", 4 * 7)
