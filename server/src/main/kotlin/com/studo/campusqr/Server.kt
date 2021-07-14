@@ -44,16 +44,13 @@ suspend fun main() {
 
   embeddedServer(
     Netty,
-    port = System.getenv("PORT")?.toIntOrNull() ?: 8070,
+    port = System.getenv("PORT")?.toIntOrNull() ?: 443,
     host = System.getenv("HOST") ?: "0.0.0.0"
   ) {
     install(DefaultHeaders) {
       header("X-Frame-Options", "DENY")
       header("Strict-Transport-Security", "max-age=31536000; preload")
       header("X-Content-Type-Options", "nosniff")
-      if (!localDebug) {
-        header("Content-Security-Policy", "script-src 'self'")
-      }
       header("Referrer-Policy", "no-referrer")
       header(
         "Feature-Policy", "accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; " +
