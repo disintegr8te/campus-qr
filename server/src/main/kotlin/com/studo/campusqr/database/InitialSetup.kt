@@ -29,8 +29,8 @@ suspend fun initialDatabaseSetup() {
 
       insert("userTosText_en", "I agree to the processing of my data according to the <privacy policy>.")
       insert("userTosText_de", "Ich stimme der Verarbeitung meiner Daten gemäß der <Datenschutzerklärung> zu.")
-      insert("userTosUrl_en", "https://example.org")
-      insert("userTosUrl_de", "https://example.org")
+      insert("userTosUrl_en", "https://kraftraum-qr.osc-fr1.scalingo.io")
+      insert("userTosUrl_de", "https://kraftraum-qr.osc-fr1.scalingo.io")
       insert("imprintText_en", "Imprint & Privacy")
       insert("imprintText_de", "Impressum & Datenschutz")
       insert("imprintUrl_en", "https://example.org")
@@ -63,9 +63,9 @@ suspend fun initialDatabaseSetup() {
       )
       insert("showVerificationAnimation", 1)
 
-      insert("baseUrl", "http://127.0.0.1:8070")
-      insert("qrCodeBaseUrl", "http://127.0.0.1:8070") // Used for qr code generation
-      insert("appName", "Campus QR")
+      insert("baseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io")
+      insert("qrCodeBaseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io") // Used for qr code generation
+      insert("appName", "Kraftraum QR")
 
       insert("deleteCheckInDataAfterDays", 4 * 7)
 
