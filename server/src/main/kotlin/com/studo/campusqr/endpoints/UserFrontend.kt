@@ -389,7 +389,7 @@ fun FlowContent.campusHeader(logoUrl: String) {
       alt = "Logo"
     }
     h2 {
-      +"Campus Check-in"
+      +"Kraftraum Check-in"
     }
   }
 }
