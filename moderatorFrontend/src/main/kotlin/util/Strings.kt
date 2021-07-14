@@ -97,10 +97,10 @@ object Strings {
   )
 
   val location_import_details = LocalizedString(
-    "If locations are accessible from the Campus Management System or are available as Excel list, " +
+    "If locations are accessible from the Management System or are available as Excel list, " +
         "they can be added automatically as mass import by Studo. " +
         "Please contact the Studo team for more information.",
-    "Sofern Orte vom Campus Management System abrufbar sind oder als Excel-Liste verfügbar sind, " +
+    "Sofern Orte vom Management System abrufbar sind oder als Excel-Liste verfügbar sind, " +
         "können diese automatisch als Massenimport von Studo hinzugefügt werden. " +
         "Bitte kontaktieren Sie dazu das Studo Team für mehr Informationen."
   )
