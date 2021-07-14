@@ -346,8 +346,8 @@ object Strings {
   )
 
   val login_info = LocalizedString(
-    "Information about Campus QR",
-    "Informationen über Campus QR"
+    "",
+    ""
   )
 
   val login_unknown_error = LocalizedString(
