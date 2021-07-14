@@ -1,20 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="24px" height="23px" viewBox="0 0 24 23" version="1.1" xmlns="http://www.w3.org/2000/svg">
-  <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-  <title>university</title>
-  <desc>Created with Sketch.</desc>
-  <g id="Campus-Check-in" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-    <g id="Campus-Check-in-02" transform="translate(-89.000000, -63.000000)" fill="#424242" fill-rule="nonzero">
-      <g id="Group-5" transform="translate(89.000000, 61.000000)">
-        <g id="university" transform="translate(0.000000, 2.000000)">
-          <path
-              d="M7.2,8 L7.2,17.6 L10.4,17.6 L10.4,8 L13.6,8 L13.6,17.6 L16.8,17.6 L16.8,8 L20,8 L20,17.6 L21.8,17.6 C22.1313708,17.6 22.4,17.8686292 22.4,18.2 L22.4,19.2 L1.6,19.2 L1.6,18.2 C1.6,17.8686292 1.86862915,17.6 2.2,17.6 L4,17.6 L4,8 L7.2,8 Z"
-              id="Path" opacity="0.4"></path>
-          <path
-              d="M23.753,4.4305 L12.153,0.0305 C12.0550316,-0.0100570713 11.9449684,-0.0100570713 11.847,0.0305 L0.247,4.4305 C0.0975188873,4.49238233 3.3246604e-05,4.63821612 3.55271368e-15,4.8 L3.55271368e-15,5.6 C3.55271368e-15,5.8209139 0.1790861,6 0.4,6 L1.6,6 L1.6,6.6 C1.6,6.93137085 1.86862915,7.2 2.2,7.2 L21.8,7.2 C22.1313708,7.2 22.4,6.93137085 22.4,6.6 L22.4,6 L23.6,6 C23.8209139,6 24,5.8209139 24,5.6 L24,4.8 C23.9999668,4.63821612 23.9024811,4.49238233 23.753,4.4305 L23.753,4.4305 Z M22.8,20 L1.2,20 C0.5372583,20 1.77635684e-16,20.5372583 0,21.2 L0,22 C0,22.2209139 0.1790861,22.4 0.4,22.4 L23.6,22.4 C23.8209139,22.4 24,22.2209139 24,22 L24,21.2 C24,20.5372583 23.4627417,20 22.8,20 Z"
-              id="Shape"></path>
-        </g>
-      </g>
-    </g>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="24pt"
+   height="23pt"
+   viewBox="0 0 225 225"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg20"
+   sodipodi:docname="Rugby_Sevens_pictogram.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <defs
+     id="defs24" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview22"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.834386"
+     inkscape:cx="25.032961"
+     inkscape:cy="232.64658"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg20" />
+  <metadata
+     id="metadata2">
+Created by potrace 1.14, written by Peter Selinger 2001-2017
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+    <dc:title></dc:title>
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="matrix(0.075,0,0,-0.075,0,225)"
+     id="g18"
+     style="fill:#000000;stroke:none">
+    <path
+       d="m 1325,2671 c -49,-22 -99,-77 -115,-126 -19,-59 -8,-139 26,-188 41,-60 122,-100 190,-95 176,14 263,217 151,353 -58,71 -167,95 -252,56 z"
+       id="path4"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 755,2313 c -120,-44 -182,-95 -232,-193 -24,-48 -28,-66 -28,-145 0,-101 13,-139 68,-195 38,-40 119,-92 166,-108 106,-36 341,15 341,74 0,17 1,17 -74,-2 -187,-49 -357,77 -315,231 17,62 58,91 173,126 191,57 223,83 195,156 -32,84 -155,107 -294,56 z"
+       id="path6"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1551,2212 c -56,-56 -33,-136 47,-163 65,-23 572,-8 921,27 157,16 209,27 181,38 -8,3 -107,19 -220,36 -113,17 -279,42 -370,56 -107,16 -229,27 -347,31 l -182,6 z"
+       id="path8"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 902,2075 c -68,-21 -119,-62 -147,-118 -14,-28 -25,-59 -25,-69 0,-22 66,-71 125,-94 56,-21 174,-16 228,10 48,24 92,67 117,117 29,56 25,72 -26,109 -81,58 -180,74 -272,45 z m 167,-45 c 18,-5 48,-21 67,-35 33,-25 33,-27 20,-54 -21,-39 -77,-87 -121,-101 -59,-19 -153,-9 -207,23 -44,26 -46,29 -37,56 31,88 168,143 278,111 z"
+       id="path10"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 927,1545 c -32,-18 -47,-51 -47,-101 0,-48 21,-85 76,-132 l 47,-40 -24,-33 C 891,1112 468,557 355,420 279,327 271,314 294,323 c 9,4 174,136 367,293 252,206 381,319 462,405 61,65 115,119 120,119 4,0 28,-19 52,-41 36,-33 45,-48 45,-74 0,-81 -124,-249 -275,-373 -51,-42 -89,-79 -84,-80 18,-7 153,40 229,78 84,43 217,146 278,216 107,120 93,258 -41,416 -51,61 -54,66 -41,89 19,35 17,67 -7,106 -39,63 -100,78 -177,43 l -43,-20 -52,27 c -65,32 -159,41 -200,18 z"
+       id="path12"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 1828,1459 c -21,-12 -24,-49 -6,-67 8,-8 59,-12 165,-12 84,0 153,-3 153,-7 0,-5 -9,-21 -21,-38 -95,-141 -196,-455 -160,-499 16,-19 64,-21 79,-3 6,6 15,40 21,74 28,151 115,343 208,460 38,47 40,63 15,86 -16,15 -47,17 -228,17 -123,0 -216,-5 -226,-11 z"
+       id="path14"
+       inkscape:connector-curvature="0" />
+    <path
+       d="m 2381,1061 c -41,-41 -23,-90 41,-116 47,-18 59,-31 51,-52 -7,-18 -48,-17 -63,2 -15,19 -60,20 -60,2 0,-24 47,-59 87,-64 29,-4 43,0 60,16 51,48 35,109 -34,131 -51,17 -61,27 -42,45 11,11 22,13 46,6 23,-7 35,-6 42,3 17,21 -5,39 -57,44 -41,4 -53,1 -71,-17 z"
+       id="path16"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>
