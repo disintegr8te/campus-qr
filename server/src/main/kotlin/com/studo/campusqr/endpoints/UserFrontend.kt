@@ -122,11 +122,6 @@ suspend fun ApplicationCall.userFrontend() {
                     "Check in bei ${location.name}"
                   ).get(this@userFrontend)
                 }
-                div("form-acceptTos") {
-                  checkBoxInput {
-                    name = "accept-tos"
-                    id = "accept-tos-checkbox"
-                  }
                   div {
                     label {
                       htmlFor = "accept-tos-checkbox"
