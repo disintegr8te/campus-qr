@@ -59,7 +59,7 @@ private fun HTML.moderatorIndex(call: ApplicationCall, csrfToken: String) {
       content = "width=device-width, initial-scale=1, shrink-to-fit=no"
     }
     title {
-      +"Campus QR"
+      +"Kraftraum QR"
     }
     meta {
       name = "csrfToken"
