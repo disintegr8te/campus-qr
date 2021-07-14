@@ -337,11 +337,6 @@ fun FlowContent.campusFooter(language: String, configs: Map<String, String>, liv
         else -> "Switch to English"
       }
     }
-    a {
-      target = "_blank"
-      href = configs.getValue("imprintUrl")
-      +configs.getValue("imprintText")
-    }
     liveCheckInLocationId?.let { locationId ->
       a {
         href = "/campus-qr/liveCheckIns?l=${locationId}"
