@@ -19,7 +19,7 @@ suspend fun ApplicationCall.index() {
           }
         }
         h1("header") {
-          +LocalizedString("Campus QR").get(this@index)
+          +LocalizedString("Kraftraum QR").get(this@index)
         }
         div("what") {
           p {
