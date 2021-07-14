@@ -29,8 +29,8 @@ suspend fun initialDatabaseSetup() {
 
       insert("userTosText_en", "I agree to the processing of my data according to the <privacy policy>.")
       insert("userTosText_de", "Ich stimme der Verarbeitung meiner Daten gemäß der <Datenschutzerklärung> zu.")
-      insert("userTosUrl_en", "https://kraftraum-qr.osc-fr1.scalingo.io")
-      insert("userTosUrl_de", "https://kraftraum-qr.osc-fr1.scalingo.io")
+      insert("userTosUrl_en", "https://kraftraum-qr.forthin.de")
+      insert("userTosUrl_de", "https://kraftraum-qr.forthin.de")
       insert("logoUrl_en", "/static/userFrontend/universityIcon.svg")
       insert("logoUrl_de", "/static/userFrontend/universityIcon.svg")
       insert("userAppName_en", "Kraftraum QR Tracking")
@@ -39,7 +39,7 @@ suspend fun initialDatabaseSetup() {
       insert("userFooterAdditionalInfoText_en", "")
       insert("userFooterAdditionalInfoText_de", "")
       insert("emailPlaceholder_en", "Your email address")
-      insert("emailPlaceholder_de", "Deine HE-Mail Adresse")
+      insert("emailPlaceholder_de", "Deine eMail Adresse")
       insert("emailAccessRegex", "") // Set to e.g. ".+@(student\.)?example\.org" to allow asdf@student.example.org and asdf@example.org
       insert(
         "scanSubtext1",
@@ -59,8 +59,8 @@ suspend fun initialDatabaseSetup() {
       )
       insert("showVerificationAnimation", 1)
 
-      insert("baseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io")
-      insert("qrCodeBaseUrl", "http://kraftraum-qr.osc-fr1.scalingo.io") // Used for qr code generation
+      insert("baseUrl", ""http://kraftraum-qr.forthin.de"")
+      insert("qrCodeBaseUrl", ""http://kraftraum-qr.forthin.de"") // Used for qr code generation
       insert("appName", "Kraftraum QR Tracking")
 
       insert("deleteCheckInDataAfterDays", 150 * 7)
