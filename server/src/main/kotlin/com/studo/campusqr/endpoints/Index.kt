@@ -24,19 +24,19 @@ suspend fun ApplicationCall.index() {
         div("what") {
           p {
             +LocalizedString(
-              "Campus QR is an open source solution for attendance tracking and infection tracing in the environment of a university.",
-              "Campus QR ist eine Open Source Lösung für Anwesenheits- und Infektionstracking für Universitäten und Hochschulen."
+              "",
+              ""
             ).get(this@index)
           }
         }
         p {
-          +LocalizedString("To view more information about Campus QR, ", "Um mehr über Campus QR zu erfahren, ").get(
+          +LocalizedString("", "").get(
             this@index
           )
           a {
-            href = "https://github.com/studo-app/campus-qr"
+            href = ""
             target = "_blank"
-            +LocalizedString("click here", "klicken Sie hier").get(this@index)
+            +LocalizedString("", "").get(this@index)
           }
           +"."
         }
@@ -51,9 +51,9 @@ suspend fun ApplicationCall.index() {
       div("background") {}
       footer {
         span {
-          +"Created by "
+          +""
           a {
-            href = "https://studo.com"
+            href = ""
             target = "_blank"
             +"Studo"
           }
