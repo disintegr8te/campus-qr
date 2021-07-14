@@ -362,7 +362,7 @@ object Strings {
 
   val login_email_form_body = LocalizedString(
     "Staff login",
-    "Login für Bedienstete"
+    "Login für Admins"
   )
 
   val login_email_form_pw_label = LocalizedString(
