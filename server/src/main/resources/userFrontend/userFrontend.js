@@ -37,7 +37,6 @@ function onLoad() {
 
 function onSubmit() {
   let emailInput = document.getElementById("email-input");
-  let acceptTosCheckbox = document.getElementById("accept-tos-checkbox");
   let submitButton = document.getElementById("submit-button");
   let resultOkWrapper = document.getElementsByClassName("result-wrapper")[0];
   let resultForbiddenAccessRestricted = document.getElementById("result-forbidden-access-restricted");
@@ -52,14 +51,7 @@ function onSubmit() {
   } else {
     emailWrapper.className = emailWrapper.className.replace("highlighted", "");
   }
-  let acceptTosCheckboxWrapper = acceptTosCheckbox.parentElement;
-  if (acceptTosCheckbox.checked !== true) {
-    acceptTosCheckboxWrapper.className = acceptTosCheckboxWrapper.className.replace("highlighted", "") + " highlighted";
-    return;
-  } else {
-    acceptTosCheckboxWrapper.className = acceptTosCheckboxWrapper.className.replace("highlighted", "");
-  }
-
+  
   // Reset result visibility (hide)
   resultOkWrapper.className = resultOkWrapper.className.replace("hidden", "") + " hidden";
   resultForbiddenAccessRestricted.className = resultForbiddenAccessRestricted.className.replace("hidden", "") + " hidden";
@@ -111,13 +103,11 @@ function formSetup() {
 
   } else {
     let emailInput = document.getElementById("email-input");
-    let acceptTosCheckbox = document.getElementById("accept-tos-checkbox");
     let submitButton = document.getElementById("submit-button");
 
     let email = window.localStorage.getItem("email");
     if (email) {
       emailInput.value = email;
-      acceptTosCheckbox.checked = true;
     }
 
     submitButton.onclick = onSubmit;
